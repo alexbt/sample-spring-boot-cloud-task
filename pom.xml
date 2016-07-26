@@ -30,7 +30,6 @@
 				<artifactId>platform-bom</artifactId>
 				<version>2.0.5.RELEASE</version>
 				<type>pom</type>
-				<scope>import</scope>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
@@ -63,14 +62,6 @@
 		<dependency>
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
-		</dependency>
-
-		<dependency>
-			<groupId>io.spring.platform</groupId>
-			<artifactId>platform-bom</artifactId>
-			<version>2.0.6.RELEASE</version>
-			<type>pom</type>
-			<scope>import</scope>
 		</dependency>
 	</dependencies>
 
